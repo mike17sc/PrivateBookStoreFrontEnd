@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'my-root',
   template: `
-    <div *ngIf="connected == 'false';else test">
+    <div *ngIf="connected == 'false'; else test">
       test
     </div>
     <ng-template #test>test2</ng-template>
